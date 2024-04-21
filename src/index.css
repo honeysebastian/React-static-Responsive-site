@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+}
+.container-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.btn-btn{
+    background: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 0;
+}
+.btn-btn:hover{
+    background: white;
+    color: black;
+}
+.arrow-image{
+    width: 20px;
+}
+.section-heading{
+    text-transform: uppercase;
+    color:#614c45;
+    font-weight: 600;
+}
+.btn-button{
+    background: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 13px;
+
+}
+.btn-button:hover{
+    background: white;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+.soc{
+    transition: transform 0.3s ease; 
+  cursor: pointer;
+}
+.soc:hover{
+    transform: scale(1.1);
+  }

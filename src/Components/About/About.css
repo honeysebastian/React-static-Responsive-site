@@ -1,0 +1,32 @@
+.about{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-items{
+    margin-top: 60px;
+}
+.about-img{
+    width:700px;
+}
+.about-desc{
+    margin-top: 150px;
+}
+.light-text-gray{
+    color: #ababab;
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-h6{
+    color: #2c2b2b;
+    font-weight: 600;
+}
+.line{
+    width: 500px;
+    font-size: 6rem;
+}
+@media(max-width:900px){
+    .about-desc{
+        margin-top: 80px;
+    }
+}
