@@ -1,46 +1,56 @@
-.footer{
+.footer {
     width: 100%;
     height: 400px;
     background-image: url('../../assets/restaurant-img41.jpg');
     background-size: cover;
     padding-top: 4rem;
 }
-.footer h5{
+
+.footer h5 {
     color: #929292;
     margin-bottom: 50px;
 }
-.footer-img{
+
+.footer-img {
     width: 180px;
 }
-.footer p{
+
+.footer p {
     font-size: 12px;
     color: #ddd9d9;
 }
-.icons{
+
+.icons {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-bottom: 100px;
 }
-.social-media{
+
+.social-media {
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.color-facebook{
+
+.color-facebook {
     background: rgb(94, 94, 207);
 }
-.color-twitter{
+
+.color-twitter {
     background: rgb(0, 0, 0);
 }
-.color-basketball{
+
+.color-basketball {
     background: rgb(233, 94, 135);
 }
-.color-youtube{
+
+.color-youtube {
     background: rgb(236, 55, 55);
 }
-.color-linkedin{
+
+.color-linkedin {
     background: rgb(37, 169, 245);
 }

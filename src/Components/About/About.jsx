@@ -42,10 +42,10 @@ const About = () => {
       <div className='text-center'><img src={separator} alt="" /></div>
       <div className="about-items d-flex row">
         <div className="col-lg-8 col-md-12" data-aos="fade-right">
-        <img className='about-img img-fluid' src={aboutimg} alt="About Image" />
+          <img className='about-img img-fluid' src={aboutimg} alt="About Image" />
         </div>
         <div className="col-lg-4 col-md-12 about-desc" data-aos="fade-left">
-        <h6 className='about-h6'>SPECIALITY OF THE HOUSE</h6>
+          <h6 className='about-h6'>SPECIALITY OF THE HOUSE</h6>
           <h1 className='light-text-gray'>DISCOVER OUR TASTY MEALS</h1>
           {/* <h1 className='line'>_</h1> */}
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>

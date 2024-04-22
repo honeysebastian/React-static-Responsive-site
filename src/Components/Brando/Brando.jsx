@@ -36,10 +36,10 @@ const Brando = () => {
 
   return (
     <div className='brando container-container' >
-        <div className="brando-text" data-aos="zoom-in-down" >
-            <img src={hungry} alt="hungry image" />
-        </div>
-        {/* <a href='#'>
+      <div className="brando-text" data-aos="zoom-in-down" >
+        <img src={hungry} alt="hungry image" />
+      </div>
+      {/* <a href='#'>
             <button className='btn btn-btn brando-btn' data-aos="zoom-in-down">
                 <img className='arrow-image' src={arrow} alt="" />
             </button>

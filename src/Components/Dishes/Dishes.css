@@ -1,4 +1,4 @@
-.dishes{
+.dishes {
     width: 100%;
     min-height: 100vh;
     background-image: url('../../assets/restaurant-img24-420x212.jpg');
@@ -7,23 +7,27 @@
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
-.dishPlate{
+
+.dishPlate {
     position: relative;
 }
-.imgDishes{
+
+.imgDishes {
     text-align: center;
 }
-.imgDishes img{
+
+.imgDishes img {
     width: 500px;
 }
-.price{
+
+.price {
     width: 100px;
     height: 100px;
     background-color: rgb(235, 62, 62);
     /* padding: 15px; */
     border-radius: 50%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     position: absolute;
     top: 0;

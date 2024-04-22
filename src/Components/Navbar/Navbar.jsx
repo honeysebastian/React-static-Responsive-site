@@ -12,21 +12,21 @@ const Navbar = () => {
     })
   }, [])
 
-  const [mobileMenu,setMobileMenu]=useState(false)
-const toggleMenu=()=>{
+  const [mobileMenu, setMobileMenu] = useState(false)
+  const toggleMenu = () => {
 
-  mobileMenu? setMobileMenu((false)): setMobileMenu(true);
+    mobileMenu ? setMobileMenu((false)) : setMobileMenu(true);
 
-}
+  }
 
   return (
     <nav className={`container-container ${sticky ? `dark-nav` : ``}`}>
-      <img style={{cursor:'pointer'}} className='logo' src={logo} alt="Company logo" />
-      <ul className={mobileMenu?'':'hide-mobile-menu'}>
-         <li>menu</li>
+      <img style={{ cursor: 'pointer' }} className='logo' src={logo} alt="Company logo" />
+      <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
+        <li>menu</li>
         <li>about</li>
-         <li>blog</li>
-         <li>contact</li>
+        <li>blog</li>
+        <li>contact</li>
         <li><button className='btn  btn-nav'>BOOK NOW</button></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />

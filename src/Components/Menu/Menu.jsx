@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 
 const Menu = () => {
-  
+
     return (
         <div className='menu'>
             <div className="menu-section-1">
@@ -29,7 +29,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className="menu-section-2">
-            <div className=" side-div2"></div>
+                <div className=" side-div2"></div>
                 <div className="bg-light menu-card lunch-card">
                     <div className="breakfast">
                         <img src={iconbreakfast} alt="" />
@@ -46,7 +46,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className="menu-section-3">
-            <div className=" side-div1"></div>
+                <div className=" side-div1"></div>
                 <div className="bg-light menu-card breakfast-card">
                     <div className="breakfast">
                         <img src={iconbreakfast} alt="" />

@@ -35,27 +35,27 @@ const Footer = () => {
 
   return (
     <div className='footer text-light text-center'>
-        <h5>CAN'T WAIT TO GET INVOLVED, <br /> CONNECT WITH US NOW!</h5>
-        <div className="icons">
-            <div className="me-3 social-media color-facebook">
-            <i class="fa-brands fa-facebook-f soc"></i>
-            </div>
-            <div className="me-3 social-media color-twitter">
-            <i class="fa-brands fa-x-twitter"></i>
-            </div>
-            <div className="me-3 social-media color-basketball">
-            <i class="fa-solid fa-basketball"></i>
-            </div>
-            <div className="me-3 social-media color-youtube">
-            <i class="fa-brands fa-youtube"></i>
-            </div>
-            <div className="me-3 social-media color-linkedin">
-            <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-
+      <h5>CAN'T WAIT TO GET INVOLVED, <br /> CONNECT WITH US NOW!</h5>
+      <div className="icons">
+        <div className="me-3 social-media color-facebook">
+          <i class="fa-brands fa-facebook-f soc"></i>
         </div>
-        <img className='footer-img mb-2' src={footerlogo} alt="" />
-        <p>© 2024 BRANDO IS PROUDLY POWERED BY THEMEZAA.</p>
+        <div className="me-3 social-media color-twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <div className="me-3 social-media color-basketball">
+          <i class="fa-solid fa-basketball"></i>
+        </div>
+        <div className="me-3 social-media color-youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div className="me-3 social-media color-linkedin">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+      </div>
+      <img className='footer-img mb-2' src={footerlogo} alt="" />
+      <p>© 2024 BRANDO IS PROUDLY POWERED BY THEMEZAA.</p>
 
     </div>
   )

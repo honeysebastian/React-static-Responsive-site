@@ -1,4 +1,4 @@
-nav{
+nav {
     width: 100%;
     /* background: black; */
     color: white;
@@ -11,10 +11,12 @@ nav{
     justify-content: space-between;
     z-index: 10;
 }
-.logo{
+
+.logo {
     width: 180px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     list-style: none;
     text-transform: uppercase;
@@ -23,10 +25,12 @@ nav ul li{
     font-weight: 700;
     cursor: pointer;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: rgb(143, 132, 132);
 }
-.btn-nav{
+
+.btn-nav {
     color: white;
     border: 1px solid white;
     border-radius: 0;
@@ -34,25 +38,29 @@ nav ul li:hover{
     font-size: 13px;
     background: none;
 }
-.btn-nav:hover{
+
+.btn-nav:hover {
     background: white;
     color: black;
 }
-.dark-nav{
+
+.dark-nav {
     background: black;
     transition: 0.5s;
     height: 70px;
 }
-.menu-icon{
+
+.menu-icon {
     width: 30px;
     display: none;
 }
 
-@media(max-width:900px){
-    nav{
-        padding: 15px 0; 
+@media(max-width:900px) {
+    nav {
+        padding: 15px 0;
     }
-    nav ul{
+
+    nav ul {
         position: fixed;
         top: 0;
         right: 0;
@@ -63,16 +71,19 @@ nav ul li:hover{
         padding-top: 70px;
         transition: 0.5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 25px 30px;
 
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
         cursor: pointer;
     }
-    .hide-mobile-menu{
+
+    .hide-mobile-menu {
         right: -200px;
     }
 }

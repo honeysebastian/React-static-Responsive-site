@@ -1,7 +1,7 @@
-.brando{
+.brando {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(20, 20, 20, 0.7),rgba(20, 20, 20, 0.7)),url('../../assets/slider-img4.jpg');
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url('../../assets/slider-img4.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,18 +13,20 @@
     padding-top: 10rem;
 
 }
+
 .brando-text {
     text-align: center;
-    
+
 }
-.brando-text img{
-    width:600px;
+
+.brando-text img {
+    width: 600px;
 }
 
 
-@media(max-width:600px){
-    .brando-text img{
-        width:450px;
+@media(max-width:600px) {
+    .brando-text img {
+        width: 450px;
     }
 
 }
