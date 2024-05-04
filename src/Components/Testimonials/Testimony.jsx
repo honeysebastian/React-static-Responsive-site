@@ -13,31 +13,31 @@ import 'aos/dist/aos.css';
 const Testimony = () => {
     useEffect(() => {
         AOS.init({
-            // Global settings:
-            disable: false,
-            startEvent: 'DOMContentLoaded',
-            initClassName: 'aos-init',
-            animatedClassName: 'aos-animate',
-            useClassNames: false,
-            disableMutationObserver: false,
-            debounceDelay: 50,
-            throttleDelay: 99,
-
-            // Settings that can be overridden on a per-element basis, by `data-aos-*` attributes:
-            offset: 100, // Adjust the offset (in pixels) to start the animation earlier or later.
-            delay: 100, // Add delay (in milliseconds) before the animation starts.
-            duration: 800, // Set the duration (in milliseconds) of the animation.
-            easing: 'ease', // Specify the easing function for the animation.
-            once: false,
-            mirror: false,
-            anchorPlacement: 'top-bottom',
+          // Global settings:
+          disable: false,
+          startEvent: 'DOMContentLoaded',
+          initClassName: 'aos-init',
+          animatedClassName: 'aos-animate',
+          useClassNames: false,
+          disableMutationObserver: false,
+          debounceDelay: 50,
+          throttleDelay: 99,
+    
+          // Settings that can be overridden on a per-element basis, by `data-aos-*` attributes:
+          offset: 100, // Adjust the offset (in pixels) to start the animation earlier or later.
+          delay: 100, // Add delay (in milliseconds) before the animation starts.
+          duration: 800, // Set the duration (in milliseconds) of the animation.
+          easing: 'ease', // Specify the easing function for the animation.
+          once: false,
+          mirror: false,
+          anchorPlacement: 'top-bottom',
         });
-
+    
         // Clean up function
         return () => {
-            AOS.refresh();
+          AOS.refresh();
         };
-    }, []);
+      }, []);
 
 
     const slider = useRef();
@@ -91,7 +91,7 @@ const Testimony = () => {
                                 <div>
                                     <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                                     <span>sommer christian</span>
-
+                                   
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate perferendis veritatis est libero eius nemo dolorum dolorem quasi minima fugit, modi velit nisi! Cum assumenda debitis ducimus pariatur iste?</p>
@@ -105,7 +105,7 @@ const Testimony = () => {
                                 <div>
                                     <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                                     <span>Alexdandera davis</span>
-
+                                    
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate perferendis veritatis est libero eius nemo dolorum dolorem quasi minima fugit, modi velit nisi! Cum assumenda debitis ducimus pariatur iste?</p>
@@ -118,7 +118,7 @@ const Testimony = () => {
                                 <div>
                                     <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
                                     <span>sarah smith</span>
-
+                                   
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate perferendis veritatis est libero eius nemo dolorum dolorem quasi minima fugit, modi velit nisi! Cum assumenda debitis ducimus pariatur iste?</p>
@@ -127,8 +127,6 @@ const Testimony = () => {
                     </li>
                 </ul>
             </div>
-
-
         </div>
     )
 }

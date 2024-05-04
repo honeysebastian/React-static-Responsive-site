@@ -41,16 +41,16 @@ const Footer = () => {
           <i class="fa-brands fa-facebook-f soc"></i>
         </div>
         <div className="me-3 social-media color-twitter">
-          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-x-twitter soc"></i>
         </div>
         <div className="me-3 social-media color-basketball">
-          <i class="fa-solid fa-basketball"></i>
+          <i class="fa-solid fa-basketball soc"></i>
         </div>
         <div className="me-3 social-media color-youtube">
-          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-youtube soc"></i>
         </div>
         <div className="me-3 social-media color-linkedin">
-          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-linkedin-in soc"></i>
         </div>
 
       </div>
