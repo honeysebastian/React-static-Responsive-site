@@ -7,7 +7,7 @@ import user_1 from '../../assets/restaurant-img37.jpg.webp'
 import user_2 from '../../assets/restaurant-img38.jpg.webp'
 import user_3 from '../../assets/restaurant-img39.jpg.webp'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 const Testimony = () => {

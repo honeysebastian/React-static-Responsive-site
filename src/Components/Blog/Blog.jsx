@@ -5,7 +5,7 @@ import card1 from '../../assets/blog-post-img4.jpg.webp'
 import card2 from '../../assets/blog-post-img5.jpg.webp'
 import card3 from '../../assets/blog-post-img6.jpg.webp'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 

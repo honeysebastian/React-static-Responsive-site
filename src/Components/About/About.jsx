@@ -3,7 +3,7 @@ import './About.css'
 import aboutimg from '../../assets/restaurant-img4.jpg-removebg-preview.png'
 import separator from '../../assets/separator.png.webp'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 const About = () => {

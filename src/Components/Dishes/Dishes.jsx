@@ -5,7 +5,7 @@ import dish1 from '../../assets/restaurant-img33.png.webp'
 import dish2 from '../../assets/restaurant-img34.png.webp'
 import dish3 from '../../assets/restaurant-img35.png.webp'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Dishes = () => {
   useEffect(() => {

@@ -4,7 +4,7 @@ import iconbreakfast from '../../assets/icon-breakfast.png.webp'
 import separator from '../../assets/separator.png.webp'
 import arrow from '../../assets/icone-de-fleche-vers-le-bas-orange.png'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 const Menu = () => {

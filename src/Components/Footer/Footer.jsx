@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Footer.css'
 import footerlogo from '../../assets/logo-restaurant-footer.png.webp'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Footer = () => {
   useEffect(() => {
